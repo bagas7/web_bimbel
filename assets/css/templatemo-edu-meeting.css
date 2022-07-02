@@ -168,7 +168,7 @@ body {
 }
 
 .main-button-red a:hover {
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .main-button-yellow a {
@@ -184,7 +184,7 @@ body {
 }
 
 .main-button-yellow a:hover {
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .section-heading h2 {
@@ -753,6 +753,10 @@ banner
   margin-top: 30px;
 }
 
+.main-banner .caption .main-button-yellow {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 767px) {
 
   .main-banner .caption h6 {
@@ -779,7 +783,7 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
+  background-image: url(../images/meetings-bg-rework.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -939,7 +943,18 @@ section.upcoming-meetings .categories .main-button-red {
   margin-top: 15px;
 }
 
+section.upcoming-meetings .categories .main-button-yellow {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+  margin-top: 15px;
+}
+
 section.upcoming-meetings .categories .main-button-red a {
+  width: 100%;
+  text-align: center;
+}
+
+section.upcoming-meetings .categories .main-button-yellow a {
   width: 100%;
   text-align: center;
 }
@@ -1255,7 +1270,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/scar-01.jpeg);
+  background-image: url(../images/akpol\(1\).jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1383,7 +1398,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #f5a425;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1399,7 +1414,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #f5a425;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1418,7 +1433,7 @@ section.contact-us .right-info ul li:last-child {
 }
 
 section.contact-us .right-info ul li h6 {
-  color: #fff;
+  color: #000;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -1427,7 +1442,7 @@ section.contact-us .right-info ul li h6 {
 section.contact-us .right-info ul li span {
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: #000;
   font-weight: 700;
 }
 
@@ -1555,6 +1570,16 @@ section.meetings-page .main-button-red {
 }
 
 section.meetings-page .main-button-red a {
+  padding: 12px 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section.meetings-page .main-button-yellow {
+  text-align: center;
+}
+
+section.meetings-page .main-button-yellow a {
   padding: 12px 60px;
   text-align: center;
   margin-top: 30px;
@@ -1775,6 +1800,10 @@ responsive
   }
 
   .main-banner .caption .main-button-red {
+    margin-top: 15px;
+  }
+
+  .main-banner .caption .main-button-yellow {
     margin-top: 15px;
   }
 
